@@ -1,0 +1,48 @@
+{
+  "name": "sisembmit",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "async": "^3.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.8",
+    "express": "^4.17.1",
+    "forever": "^0.10.10",
+    "https-proxy-agent": "^5.0.0",
+    "json-bigint": "^1.0.0",
+    "mysql2": "^2.2.5",
+    "node-binance-api": "^0.13.0",
+    "prettier": "^2.3.2",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "selenium-webdriver": "^4.0.0-beta.3",
+    "sisembmit": "file:",
+    "socks-proxy-agent": "^5.0.0",
+    "string-hash": "^1.1.3",
+    "vhttps": "^0.1.1",
+    "websocket": "^1.0.34",
+    "yarn": "^1.22.19"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kywoo81/futurebinancedata.git"
+  },
+  "author": "yj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kywoo81/futurebinancedata/issues"
+  },
+  "homepage": "https://github.com/kywoo81/futurebinancedata#readme",
+  "keywords": [
+    "tradingview"
+  ],
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "description": ""
+}
