@@ -35,8 +35,8 @@ var router = express.Router();
 app.use(cors());
 app.use("/", router);
 
-const port = 5927; //포트 https
-const port2 = 5928; //포트 http
+const port = 2053; //포트 https
+const port2 = 2052; //포트 http
 //////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////server ------ https
 app.use(express.static(path.join(__dirname, './chart')));

@@ -129,9 +129,9 @@ function setLineObj(msg){
 var serverUrl = _server;
 var wsurl; //server#####
 if( _server == "localhost")
-	wsurl = "ws://" + serverUrl + ":5928/port5927"; //server#####
+	wsurl = "ws://" + serverUrl + ":2052/port2053"; //server#####
 else
-	wsurl = "wss://" + serverUrl + ":5927/port5927"; //server#####
+	wsurl = "wss://" + serverUrl + ":2053/port2053"; //server#####
 
 var ws=null;
 var lineGroup=[];

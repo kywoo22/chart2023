@@ -270,7 +270,7 @@ export default {
         //   })
         //     .then((data) => {
                  try {
-                        // const apiUrl = `http://localhost:5928/api/history?symbol=${symbol}&from=${from}&to=${to}&resolution=${resolution}&limit=1000`;
+                        // const apiUrl = `http://localhost:2052/api/history?symbol=${symbol}&from=${from}&to=${to}&resolution=${resolution}&limit=1000`;
                         // const datas = await makeApiRequestByUrl(apiUrl);
                         // if (datas.length === 0) {
                         //     console.log('ERROR [historical API] data=>', datas);
