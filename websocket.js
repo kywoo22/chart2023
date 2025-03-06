@@ -12,16 +12,7 @@ var coLimit = { BTC: 2, ETH: 2, XRP: 4, TRX: 5, DOGE:5, LTC:2, SAND:4, ADA:4, AP
 			SOL:3, QTUM:3, LINK:3, AVAX:3, CHZ:5, SHIB:5, PEPE:7, XMR:2, DOT:3, FTM:4, NEAR:3, BOME:6, ZEC:2, UNI:3, LDO:4, BNB:2}; //##
 
 // 거래소구분 
-//var coin = ['btcusdt','ethusdt','xrpusdt','trxusdt','dogeusdt','ltcusdt','sandusdt','adausdt','apeusdt','dydxusdt','galausdt','gmtusdt','ksmusdt','roseusdt','rvnusdt','etcusdt']; //##
-//var coin = ['btcusdt','ethusdt','xrpusdt','trxusdt','dogeusdt','sandusdt','adausdt','gmtusdt','etcusdt','bchusdt']; //## 비트센터
-// var coin = ['btcusdt','ethusdt','xrpusdt','trxusdt','dogeusdt']; //## 글로빗 
-// var coin = ['btcusdt','ethusdt','xrpusdt','trxusdt','dogeusdt','ltcusdt','sandusdt','adausdt','rvnusdt','etcusdt']; //## 벡스라임
-// var coin = ['btcusdt','ethusdt','xrpusdt','trxusdt','dogeusdt','ltcusdt','sandusdt','adausdt','etcusdt','bchusdt']; //## 비트오션,에어렉스
-// var coin = ['btcusdt','ethusdt','xrpusdt','trxusdt','dogeusdt','ltcusdt','sandusdt','adausdt','gmtusdt','etcusdt']; //## 위빗
-var coin = ['btcusdt','ethusdt','xrpusdt','trxusdt','dogeusdt','ltcusdt','adausdt','etcusdt','eosusdt','bchusdt','solusdt','linkusdt','dotusdt','bnbusdt']; //## coinx
-// var coin = ['btcusdt','ethusdt','xrpusdt','trxusdt','dogeusdt','ltcusdt','adausdt','etcusdt','bchusdt','maticusdt','linkusdt','xmrusdt','dotusdt','ftmusdt','nearusdt']; //## BTC
-// var coin = ['btcusdt','ethusdt','xrpusdt','trxusdt','dogeusdt','solusdt','chzusdt', 'bomeusdt', 'zecusdt', 'uniusdt', 'ldousdt',]; //## FLONANCIAL
-// var coin = ['btcusdt','ethusdt','xrpusdt','trxusdt','dogeusdt','bchusdt','bchusdt','solusdt','qtumusdt','linkusdt']; //## 비트팟,bixbitx
+var coin = ['btcusdt','ethusdt','xrpusdt','trxusdt']; //## 글로빗 
 //월드비트,베타비트,비스타빗,코어빗 의 경우 밸런스조작 기능 사용으로 인해 구 차트 사용중.
 
 var cnt = 4;

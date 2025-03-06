@@ -58,8 +58,8 @@ app2.use(cors());
 app2.use("/", router);
 
 /////////////////////////////////////server https
-const port2 = 8287;
-const port = 8288;
+const port2 = 2083;
+const port = 2082;
 var https_options = {
   ca: fs.readFileSync('C:/Apache24/conf/ssl.pem'),
   key: fs.readFileSync('C:/Apache24/conf/new.key'),
